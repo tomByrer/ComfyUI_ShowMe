@@ -1,8 +1,9 @@
 # ShowMe
 
-ShowMe is a ComfyUI extension that adds an annotation layer to the canvas.
+ShowMe is a ComfyUI extension that adds an annotation layer to the canvas.\
+Exported workflows can carry ShowMe annotations with them, readable by anyone with ShowMe installed.
 
-It is meant for two related uses:
+## Uses:
 
 - Ask what a graph does, follow data flow, and inspect important nodes.
 - Mark up the graph and save notes for later review.
@@ -58,8 +59,3 @@ Ollama defaults to:
 ```text
 http://127.0.0.1:11434
 ```
-
-## Notes
-
-- Exported workflows can carry ShowMe annotations with them.
-- Another ComfyUI install needs ShowMe installed to display those annotations.
